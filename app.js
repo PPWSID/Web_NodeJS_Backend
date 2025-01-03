@@ -3,6 +3,7 @@ require('./config/global_config');
 
 //----------- Require Router -----------//
 const testRouter = require('./routes/index');
+const OXgameRoutes = require('./routes/tic_tac_toe');
 
 //----------- Require Package -----------//
 // const file = fs.readFileSync("./swagger.yaml", "utf8");
@@ -21,7 +22,7 @@ app.use(cors());
 //------------- Route -------------//
 // app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 app.use('/test/api', testRouter);
-
+app.use('/oxgame/api', OXgameRoutes);
 
 
 
