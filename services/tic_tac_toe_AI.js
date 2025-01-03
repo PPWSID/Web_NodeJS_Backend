@@ -1,4 +1,4 @@
-const { checkWinner } = require('../utils/gameUtils');
+const { checkWinner } = require('../utils/tic_tac_toe');
 
 class AIService {
     static getBestMove(board) {
