@@ -1,4 +1,4 @@
-const testService = require('../service/index')
+const testService = require('../services/index')
 
 async function testResponse(req, res) {
     try {
