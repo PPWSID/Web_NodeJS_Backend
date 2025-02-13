@@ -17,6 +17,8 @@ class AIService {
                 }
             }
         }
+        // console.log(bestMove);
+        
         return bestMove;
     }
 
